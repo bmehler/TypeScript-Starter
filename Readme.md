@@ -1,6 +1,13 @@
 # Typescript Starter Project
-This is a starter boilerplate template for typescript development. It contains the <strong>vscode debugger configuration</strong> and <strong>testing with jest</strong>. Furthermore the <strong>src folder</strong> is syncronizied with the <strong>out folder</strong> by the <strong>tsc-watch command</strong>.
+This is a starter boilerplate template for typescript development. It contains the <strong>vscode debugger configuration</strong> and <strong>testing with jest</strong>. Furthermore the <strong>src folder</strong> is syncronizied with the <strong>out folder</strong> by the <strong>tsc-watch command.</strong>.
 
+## Prerequisites
+```js
+git clone https://github.com/bmehler/TypeScript-Starter.git <your_folder>
+cd TypeScript-Starter or <your folder>
+npm install
+```
+This is the tutorial to create the TypeScript-Starter Boilerplate.
 ### Create a package.json
 ```bash
 npm init
@@ -69,7 +76,7 @@ export function sum(a: any, b: any) {
     return a + b;
 }
 ```
-### Include sum.ts in index.ts
+### Import sum.ts in index.ts
 ```typescript
 import { sum } from "./sum";
 
