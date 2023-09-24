@@ -1,13 +1,14 @@
 # Typescript Starter Project
 This is a starter boilerplate template for typescript development. It contains the <strong>vscode debugger configuration</strong> and <strong>testing with jest</strong>. Furthermore the <strong>src folder</strong> is syncronizied with the <strong>out folder</strong> by the <strong>tsc-watch command.</strong>.
 
-## Prerequisites
+## Use it out of the box
 ```js
 git clone https://github.com/bmehler/TypeScript-Starter.git <your_folder>
 cd TypeScript-Starter or <your folder>
 npm install
+npm start
 ```
-This is the tutorial to create the TypeScript-Starter Boilerplate.
+This is the tutorial to develop the TypeScript-Starter Boilerplate by your own.
 ### Create a package.json
 ```bash
 npm init
