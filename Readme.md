@@ -1,4 +1,4 @@
-![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
+![test workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
 # Typescript Starter Project
 This is a starter boilerplate template for typescript development. It contains the <strong>vscode debugger configuration</strong> and <strong>testing with jest</strong>. Furthermore the <strong>src folder</strong> is syncronizied with the <strong>out folder</strong> by the <strong>tsc-watch command.</strong>.
 
