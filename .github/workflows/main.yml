@@ -1,4 +1,4 @@
-name: TypeScript jest test
+name: Jest Test
 
 on: [push]
 
