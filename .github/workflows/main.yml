@@ -1,9 +1,10 @@
-name: Jest Test
+name: CI
 
 on: [push]
 
 jobs:
-  build:
+  jest testing:
+    name: Jest Testing
 
     runs-on: ubuntu-latest
 
@@ -16,3 +17,18 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
+
+  jest-coverage-testing:
+    name: Jest Coverage Testing
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - run: npm ci
+      - run: npm run build --if-present
+      - run: npm run test-coverage
