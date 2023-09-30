@@ -130,4 +130,4 @@ All files 100%
   sum.ts 100%
 ```
 
-That's it! Have fun!
+Have fun!
